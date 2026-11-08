@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F6F9;
+    color: #202124;
+}
+
+header {
+    background-color: #174EA6;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #174EA6;
+}
+
+#claimsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.claim-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px;
+    background-color: #fff;
+}
+
+.claim-card h3 {
+    color: #174EA6;
+    margin-bottom: 12px;
+}
+
+.claim-card p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+    color: white;
+}
+
+.approve-btn {
+    background-color: #188038;
+}
+
+.reject-btn {
+    background-color: #D93025;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+#logoutBtn {
+    background-color: #D93025;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#logoutBtn:hover {
+    background-color: #B3261E;
+}
