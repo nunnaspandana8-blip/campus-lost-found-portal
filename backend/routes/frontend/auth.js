@@ -1,4 +1,4 @@
-const AUTH_URL = "http://localhost:5000/api/auth";
+const AUTH_URL = "https://campus-lost-found-portal-gke6.onrender.com/api/auth";
 
 const registerForm = document.getElementById("register-form");
 const loginForm = document.getElementById("login-form");

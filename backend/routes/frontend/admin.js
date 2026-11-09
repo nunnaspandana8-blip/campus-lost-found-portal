@@ -1,5 +1,4 @@
-
-const API_URL = "http://localhost:5000/api/claims";
+const API_URL = "https://campus-lost-found-portal-gke6.onrender.com/api/claims";
 
 const claimsContainer = document.getElementById("claimsContainer");
 const logoutBtn = document.getElementById("logoutBtn");

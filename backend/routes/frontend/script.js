@@ -1,6 +1,6 @@
 
-const API_URL = "http://localhost:5000/api/items";
-const CLAIMS_URL = "http://localhost:5000/api/claims";
+const API_URL = "https://campus-lost-found-portal-gke6.onrender.com/api/items";
+const CLAIMS_URL = "https://campus-lost-found-portal-gke6.onrender.com/api/claims";
 
 const itemsContainer = document.getElementById("items-container");
 const itemCount = document.getElementById("item-count");
